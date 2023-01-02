@@ -1,0 +1,63 @@
+
+body {
+    background-color:rgb(187, 152, 108);
+    font-size: 1.5rem;
+}
+
+.titre {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.conteneur {
+    align-items: center;
+    text-align: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.introduction {
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.hobby {
+    float: left;
+    width: 33.33%;
+}
+  
+/* Clear floats after the columns */
+.imghobbies:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+
+}  
+
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.li-edu {
+    align-items: center;
+    text-align:start;
+    margin: 0.5rem;
+    margin-left: 5rem;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2.5rem;
+}
